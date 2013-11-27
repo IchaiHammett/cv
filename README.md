@@ -1,3 +1,7 @@
-The OpenShift `php` cartridge documentation can be found at:
+Esta es mi proyecto para PHP
+es un CV
 
-https://github.com/openshift/origin-server/tree/master/cartridges/openshift-origin-cartridge-php/README.md
+este es el link directo
+
+http://cv-ichai.rhcloud.com/
+
