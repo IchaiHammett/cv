@@ -341,8 +341,6 @@ else                /* send the submitted data */
 		</div>
 		
 		
-<div id="footer">
-			&copy; IchaiHammett|   Ichai Gutierrez | <a href="mailto:you@yourdomain.com"><id="email">ichai.hammett@gmail.com</a> | cel: (664) 235-3469
-		</div>
+
     </BODY>
 </HTML>
