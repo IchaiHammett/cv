@@ -1,4 +1,6 @@
-<HTML lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<HTML lang="en" xmlns="http://www.w3.org/1999/xhtml">
     <HEAD>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <TITLE>Ichai Gutierrez Romero CV</TITLE>
@@ -9,6 +11,47 @@
 			<link rel="Stylesheet" href="css/bootstrap-responsive.css" />	
 			
 			<LINK HREF="css/estilo.css" REL="stylesheet" TYPE="text/css">
+
+
+
+			<!--php funfion-->
+<?php 
+$errors = '';
+$myemail = 'ichai.hammett@gmail.com';//<-----Put Your email address here.
+if(empty($_POST['name'])  || 
+   empty($_POST['email']) || 
+   empty($_POST['message']))
+{
+    $errors .= "\n Error: all fields are required";
+}
+
+$name = $_POST['name']; 
+$email_address = $_POST['email']; 
+$message = $_POST['message']; 
+
+if (!preg_match(
+"/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
+$email_address))
+{
+    $errors .= "\n Error: Invalid email address";
+}
+
+if( empty($errors))
+{
+	$to = $myemail; 
+	$email_subject = "Contact form submission: $name";
+	$email_body = "You have received a new message. ".
+	" Here are the details:\n Name: $name \n Email: $email_address \n Message \n $message"; 
+	
+	$headers = "From: $myemail\n"; 
+	$headers .= "Reply-To: $email_address";
+	
+	mail($to,$email_subject,$email_body,$headers);
+	//redirect to the 'thank you' page
+	header('Location: contact-form-thank-you.html');
+} 
+?>
+			<!--php funfion-->
         
     </HEAD>
 	<!--BODY aqui entra la clase de el css para el body-->
@@ -247,8 +290,45 @@
 							<!--Div para el About me-->
 							<div class="div_about_titulo_experiencia">
 								<p style="margin-left: 30px">
-									Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.
-									Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. 
+									
+
+									<!--php-->
+									<?php
+$action=$_REQUEST['action'];
+if (!$action=="action")    /* display the contact form */
+    {
+    ?>
+    <form  action="index.php" method="POST" enctype="multipart/form-data">
+    <input type="hidden" name="action" value="submit">
+    Your name:<br>
+    <input name="name" type="text" value="" size="30"/><br>
+    Your email:<br>
+    <input name="email" type="text" value="" size="30"/><br>
+    Your message:<br>
+    <textarea name="message" rows="7" cols="30"></textarea><br>
+    <input type="submit" value="Send email"/>
+    </form>
+    <?php
+    } 
+else                /* send the submitted data */
+    {
+    $name=$_REQUEST['name'];
+    $email=$_REQUEST['email'];
+    $message=$_REQUEST['message'];
+    if (($name=='name')||($email=='email')||($message=='message'))
+        {
+        echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+        }
+    else{        
+        $from="From: $name<$email>\r\nReturn-path: $email";
+        $subject="Message sent using your contact form";
+        mail("ichai.hammett@gmail.com", $subject, $message, $from);
+        echo "Email sent!";
+        }
+    }  
+?>
+
+									<!--php-->
 								</p>
 							
 							</div>
