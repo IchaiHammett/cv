@@ -6,69 +6,50 @@
 			<!--<script src="http://code.jquery.com/jquery.js"></script>-->
 			<script src="js/bootstrap.min.js" type="text/jscript"></script>
 			<link rel="Stylesheet" href="css/bootstrap.css" />
-			<link rel="Stylesheet" href="css/bootstrap-responsive.css" />
+			<link rel="Stylesheet" href="css/bootstrap-responsive.css" />	
+			
+			<LINK HREF="css/estilo.css" REL="stylesheet" TYPE="text/css">
         
     </HEAD>
-
-    <BODY style = "width: 100%;
-			height: 100%;
-			padding: 0px;
-			margin: 0px;
-			overflow: scroll;
-			font-family: arial;
-			font-size: 10px;
-			color: #6e6e6e;
-			background-color: #AFA5A5;"> 
-	<!--es el banner con el menu-->
-        <div style="border: 1px solid black; 
-		width:100%; height: 
-		50px; position: fixed;" 
-		class="text-center">
-		
+	<!--BODY aqui entra la clase de el css para el body-->
+    <BODY class ="body_style"> 
+	<!--es el banner con el MENU-->
+        <div class ="menu_banner">
+			<!--Lista de el menu-->
 			<ul class="inline" style = " margin-top: 20px;" >
-				<li><button type="button" class="btn btn-info">About me</button></li>
-				<li><button type="button" class="btn btn-info">My Expertise</button></li>
-				<li><button type="button" class="btn btn-info">Experience</button></li>
-				<li><button type="button" class="btn btn-info">Education</button></li>
-				<li><button type="button" class="btn btn-info">Skills</button></li>
-				<li><button type="button" class="btn btn-info">Portfolio</button></li>
-				<li><button type="button" class="btn btn-info ">Contact</button></li>
+				<li><a href="#aboutme"><button type="button" class="btn btn-info">About me</button></li>
+				<li><a href="#expertise"><button type="button" class="btn btn-info">My Expertise</button></li>
+				<li><a href="#experience"><button type="button" class="btn btn-info">Experience</button></li>
+				<li><a href="#education"><button type="button" class="btn btn-info">Education</button></li>
+				<li><a href="#skills"><button type="button" class="btn btn-info">Skills</button></li>
+				<li><a href="#portfolio"><button type="button" class="btn btn-info">Portfolio</button></li>
+				<li><a href="#contact"><button type="button" class="btn btn-info ">Contact</button></li>
+
 							
 		    </ul>
 		
 		</div> 
 		
 		<!--este div es el contenedor principal-->
-		<div style="border: 1px solid black; 
-		width:900px; height: 1px; 
-		margin-top: 50px; 
-		margin-left: 200px;
-		position: absolute;
-		background-color: #F5F2F2">
+		<div class="div_contenedorPrin">
 		
 		    <!--DIv para el name-->
-				<div style="border: 1px solid black;
-				width:900px; height: 200px;
-				position: relative;
-				background-color: #F5F2F2;">
+		    <!--aqui entran las clases de el css divsContenido_divAboutme-->
+				<div class="divsContenido_divAboutme" id="aboutme">
 					
 							<!--DIv para el titulo-->
-							<div style="border: 1px solid black; width:300px; height: 200px; margin-left: 0px; background-color: #F5F2F2;">
-								<p style="margin-left: 30px" >
+							<!--clases para cada div de el titulo aboutme-->				
+							
+							
+							<div class="div_aboutme">
+								<!--Parrafo para el div de el el titulo -->
+								<p class="p_aboutme">
 
-									<p style="margin-left: 30px" >
+									<p class="p_aboutme" >
 
-									<h2 style="font: 2.9em 'Arvo', serif;
-										line-height: 0.8em;
-										color: #464646;
-										font-weight: normal;
-										margin-bottom: 3px;
-										margin-top: 0;"	>
+									<h2 class="h2_aboutme">
 										About me:</h2>
-										<h5 style="font: 1.35em 'Droid Sans', sans-serif;
-										line-height: 1.2em;
-										color: #0099e8;
-										font-weight: normal;">
+										<h5 class="h5_aboutme">
 										professional profile<br> and contact info</h5>
 											</p>
 								</p>
@@ -76,8 +57,8 @@
 							</div>
 						
 							<!--Div para el contenido-->
-							<div style="border: 1px solid black; width: 600px; height: 200px; margin-left: 300px; margin-top: -203px; background-color: #F5F2F2;">
-								<p style="margin-left: 30px">
+							<div class="div_contenido_aboutme">
+								<p class="p_contenido_aboutme">
 									Jesus Ichai Gutierrez Romero</br>
 									Date of Birth:Sep 20th 1992</br>
 									Place of Birth:Distriro Federal, Mexico</br>
@@ -97,28 +78,17 @@
 
 				</div >
 			<!--DIv para el My Expertise-->	
-				<div style="border: 1px solid black;
-				width:900px; height: 200px;
-				position: relative;
-				background-color: #F5F2F2;">
+				<div class="div_contenido_principal_experiencia" id="expertise">
 
 				<!--DIv para el Titulo-->
-							<div style="border: 1px solid black; width:300px; height: 200px; margin-left: 0px; background-color: #F5F2F2;">
-								<p style="margin-left: 30px" >
+							<div class="div_tituloExperiencia">
+								<p class="P_titulo_Experiencia">
 
-									<p style="margin-left: 30px" >
+									<p class="P_titulo_Experiencia">
 
-									<h2 style="font: 2.9em 'Arvo', serif;
-										line-height: 0.8em;
-										color: #464646;
-										font-weight: normal;
-										margin-bottom: 3px;
-										margin-top: 0;"	>
+									<h2 class="h2_titulo_Experiencia">
 										My Expertise:</h2>
-										<h5 style="font: 1.35em 'Droid Sans', sans-serif;
-										line-height: 1.2em;
-										color: #0099e8;
-										font-weight: normal;">
+										<h5 class="h5_titulo_experiencia">
 										Skills that Im<br> Proud of</h5>
 											</p>
 								</p>
@@ -126,38 +96,27 @@
 							</div>
 						
 							<!--Div para el About me-->
-							<div style="border: 1px solid black; width: 600px; height: 200px; margin-left: 300px; margin-top: -203px; background-color: #F5F2F2; ">
+							<div class="h5_titulo_experiencia">
 								<p style="margin-left: 30px">
 									Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.
 									Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. 
 								</p>
 							
 							</div>
-						 
-						  
+						
+						  <!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  -->
 				</div>
 		    <!--DIv para el Experience-->
-				<div style="border: 1px solid black;
-				width:900px; height: 200px;
-				position: relative;
-				background-color: #F5F2F2;">
+				<div class="div_principal_exp" id="experience">
 					<!--DIv para el titulo-->
-							<div style="border: 1px solid black; width:300px; height: 200px; margin-left: 0px; background-color: #F5F2F2;">
-								<p style="margin-left: 30px" >
+							<div class="div_tituloExperiencia"> <!--aqui se anexa css ya hecho-->
+								<p class="P_titulo_Experiencia">
 
-									<p style="margin-left: 30px" >
+									<p class="P_titulo_Experiencia">
 
-									<h2 style="font: 2.9em 'Arvo', serif;
-										line-height: 0.8em;
-										color: #464646;
-										font-weight: normal;
-										margin-bottom: 3px;
-										margin-top: 0;"	>
+									<h2 class="h2_titulo_Experiencia">
 										Experience:</h2>
-										<h5 style="font: 1.35em 'Droid Sans', sans-serif;
-										line-height: 1.2em;
-										color: #0099e8;
-										font-weight: normal;">
+										<h5 class="h5_titulo_experiencia">
 										Where I worked</h5>
 											</p>
 								</p>
@@ -165,8 +124,8 @@
 							</div>
 						
 							<!--Div para el contenido-->
-							<div style="border: 1px solid black; width: 600px; height: 200px; margin-left: 300px; margin-top: -203px; background-color: #F5F2F2; ">
-								<p style="margin-left: 30px">
+							<div class="div_about_titulo_experiencia">
+								<p class="P_titulo_Experiencia">
 									
 									
 								</p>
@@ -176,27 +135,16 @@
 						   
 				</div>
 			<!--DIv para el Education-->	
-				<div style="border: 1px solid black;
-				width:900px; height: 200px;
-				position: relative;
-				background-color: #F5F2F2;">
+				<div class="div_tituloExperiencia" id="education">
 				<!--DIv para el titulo-->
-							<div style="border: 1px solid black; width:300px; height: 200px; margin-left: 0px; background-color: #F5F2F2;">
-								<p style="margin-left: 30px" >
+							<div class="div_tituloExperiencia">
+								<p class="P_titulo_Experiencia" >
 
-									<p style="margin-left: 30px" >
+									<p class="P_titulo_Experiencia" >
 
-									<h2 style="font: 2.9em 'Arvo', serif;
-										line-height: 0.8em;
-										color: #464646;
-										font-weight: normal;
-										margin-bottom: 3px;
-										margin-top: 0;"	>
+									<h2 class="h2_titulo_Experiencia">
 										Education:</h2>
-										<h5 style="font: 1.35em 'Droid Sans', sans-serif;
-										line-height: 1.2em;
-										color: #0099e8;
-										font-weight: normal;">
+										<h5 class="h5_titulo_experiencia">
 										My college and</br>High school</h5>
 											</p>
 								</p>
@@ -204,8 +152,8 @@
 							</div>
 						
 							<!--Div para el contenido-->
-							<div style="border: 1px solid black; width: 600px; height: 200px; margin-left: 300px; margin-top: -203px; background-color: #F5F2F2; ">
-								<p style="margin-left: 30px">
+							<div class="div_about_titulo_experiencia">
+								<p class="P_titulo_Experiencia">
 									
 									
 								</p>
@@ -215,26 +163,16 @@
 						   
 				</div>
 			<!--DIv para el skills-->	
-				<div style="border: 1px solid black;
-				width:900px; height: 200px;
-				position: relative; background-color: #F5F2F2;">
+				<div class="div_skillsPrincipal" id="skills">
 				<!--DIv para el titulo-->
-							<div style="border: 1px solid black; width:300px; height: 200px; margin-left: 0px; background-color: #F5F2F2;">
+							<div class="div_tituloSkills">
 								<p style="margin-left: 30px" >
 
-									<p style="margin-left: 30px" >
+									<p class="P_titulo_Experiencia">
 
-									<h2 style="font: 2.9em 'Arvo', serif;
-										line-height: 0.8em;
-										color: #464646;
-										font-weight: normal;
-										margin-bottom: 3px;
-										margin-top: 0;"	>
+									<h2 class="h2_titulo_Experiencia" 	>
 										Skills:</h2>
-										<h5 style="font: 1.35em 'Droid Sans', sans-serif;
-										line-height: 1.2em;
-										color: #0099e8;
-										font-weight: normal;">
+										<h5 class="h5_titulo_experiencia">
 										What Im Good for</h5>
 											</p>
 								</p>
@@ -242,8 +180,8 @@
 							</div>
 						
 							<!--Div para el contenido-->
-							<div style="border: 1px solid black; width: 600px; height: 200px; margin-left: 300px; margin-top: -203px; background-color: #F5F2F2;">
-								<p style="margin-left: 30px">
+							<div class="div_about_titulo_experiencia">
+								<p class="P_titulo_Experiencia">
 									Languages: C#, Java, CSS, IOS</br>Frameworks: .NET, Play</br>
 
 								
@@ -261,27 +199,16 @@
 				</div>
 				
 			<!--DIv para el Portfolio-->	
-				<div style="border: 1px solid black;
-				width:900px; height: 200px;
-				position: relative;
-				background-color: #F5F2F2;">
+				<div class="div_contenido_principal_experiencia" id="portfolio">
 				<!--DIv para el Titulo-->
-							<div style="border: 1px solid black; width:300px; height: 200px; margin-left: 0px; background-color: #F5F2F2;">
+							<div class="div_tituloExperiencia">
 									<p style="margin-left: 30px" >
 
 									<p style="margin-left: 30px" >
 
-									<h2 style="font: 2.9em 'Arvo', serif;
-										line-height: 0.8em;
-										color: #464646;
-										font-weight: normal;
-										margin-bottom: 3px;
-										margin-top: 0;"	>
+									<h2 class="h2_titulo_Experiencia" 	>
 										Portfolio:</h2>
-										<h5 style="font: 1.35em 'Droid Sans', sans-serif;
-										line-height: 1.2em;
-										color: #0099e8;
-										font-weight: normal;">
+										<h5 class="h5_titulo_experiencia">
 										Some of my</br>best work</h5>
 											</p>
 								</p>
@@ -289,7 +216,7 @@
 							</div>
 						
 							<!--Div para el About me-->
-							<div style="border: 1px solid black; width: 600px; height: 200px; margin-left: 300px; margin-top: -203px; background-color: #F5F2F2; ">
+							<div class="div_about_titulo_experiencia">
 								<p style="margin-left: 30px">
 									Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.
 									Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. 
@@ -301,35 +228,24 @@
 				</div>
 				
 			<!--DIv para el Education-->	
-				<div style="border: 1px solid black;
-				width:900px; height: 200px;
-				position: relative;
-				background-color: #F5F2F2;">
+				<div class="div_principal_exp" id="contact">
 
 				<!--DIv para el Titulo-->
-							<div style="border: 1px solid black; width:300px; height: 200px; margin-left: 0px; background-color: #F5F2F2;">
+							<div class="div_tituloSkills">
 								<p style="margin-left: 30px" >
 
 									<p style="margin-left: 30px" >
 
-									<h2 style="font: 2.9em 'Arvo', serif;
-										line-height: 0.8em;
-										color: #464646;
-										font-weight: normal;
-										margin-bottom: 3px;
-										margin-top: 0;"	>
+									<h2 class="h2_titulo_Experiencia">
 										Contact Me:</h2>
-										<h5 style="font: 1.35em 'Droid Sans', sans-serif;
-										line-height: 1.2em;
-										color: #0099e8;
-										font-weight: normal;">
+										<h5 class="h5_titulo_experiencia">
 										I reply in less</br>than 24 hours</h5>
 											</p>
 								</p>
 							</div>
 						
 							<!--Div para el About me-->
-							<div style="border: 1px solid black; width: 600px; height: 200px; margin-left: 300px; margin-top: -203px; background-color: #F5F2F2; ">
+							<div class="div_about_titulo_experiencia">
 								<p style="margin-left: 30px">
 									Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.
 									Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. 
