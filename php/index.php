@@ -323,7 +323,7 @@ else                /* send the submitted data */
         $from="From: $name<$email>\r\nReturn-path: $email";
         $subject="Message sent using your contact form";
         mail("ichai.hammett@gmail.com", $subject, $message, $from);
-        echo "Email sent!";
+        echo "Fill the form please and try again!";
         }
     }  
 ?>
