@@ -305,7 +305,7 @@ if (!$action=="action")    /* display the contact form */
     Your email:<br>
     <input name="email" type="text" value="" size="30"/><br>
     Your message:<br>
-    <textarea name="message" rows="7" cols="30"></textarea><br>
+    <textarea name="message" rows="7" cols="15"></textarea>
     <input type="submit" value="Send email"/>
     </form>
     <?php
@@ -341,6 +341,8 @@ else                /* send the submitted data */
 		</div>
 		
 		
-
+<div id="footer">
+			&copy; IchaiHammett|   Ichai Gutierrez | <a href="mailto:you@yourdomain.com"><id="email">ichai.hammett@gmail.com</a> | cel: (664) 235-3469
+		</div>
     </BODY>
 </HTML>
