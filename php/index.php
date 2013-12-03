@@ -346,7 +346,7 @@ if( empty($errors))
 								   <!-- <div style="margin-left:350px; margin-top: -115px;">-->
 								    	Your message:<br>
 								    <textarea name="message" rows="7" cols="15" style="margin-left:350px; margin-top: -115px;"></textarea>
-								    <input type="submit" value="Send email" style="margin-left:350px; margin-top: -150px;"/>
+								    <input type="submit" value="Send email" style="margin-left:350px; margin-top: -80px;"/>
 								     <!--</div>-->
 								    </form>
 								   
