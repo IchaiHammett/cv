@@ -299,10 +299,29 @@ if( empty($errors))
 						
 							<!--Div para el About me-->
 							<div class="div_about_titulo_experiencia">
-								<p style="margin-left: 30px">
-									Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.
-									Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. 
-								</p>
+								
+					<div class="span9 borderleft">
+				
+					<div class="galleryContainer">	    	
+						<div class="galleryItem">
+							<a href="img/1.jpg" class="lightbox['portfolio']"><img src="img/codigo.jpg" alt=""></a>
+							<h3>Business Card</h3>
+							<p>Graphic Design</p>
+						</div>
+						
+						<div class="galleryItem">
+							<a href="img/2.jpg" class="lightbox['portfolio']"><img src="img/codigo2jpg" alt=""></a>
+							<h3>Business Card Back</h3>
+							<p>Graphic Design</p>
+						</div>
+						
+						
+					</div>
+					</div>
+
+
+
+
 							
 							</div>
 						 
@@ -332,7 +351,7 @@ if( empty($errors))
 									
 
 									<!--php-->
-																	<?php
+								<?php
 								$action=$_REQUEST['action'];
 								if (!$action=="action")    /* display the contact form */
 								    {

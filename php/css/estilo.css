@@ -180,3 +180,9 @@
   color: #ffffff;
 }
 
+.galleryContainer {
+width: 95%;
+margin: 0 auto;
+overflow: hidden;
+margin-top: -10px;
+}
