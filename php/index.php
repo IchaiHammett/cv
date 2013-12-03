@@ -109,6 +109,7 @@ if( empty($errors))
 									Zip Code:22222</br>
 									Cell Phone Number: (044)664-235-34-69</br>
 									Email Address:ichai.hammett@gmail.com</br>
+									Im a very nice person
 									
 									
 								</p>
@@ -120,10 +121,13 @@ if( empty($errors))
 
 
 				</div >
+				
+				
 			<!--DIv para el My Expertise-->	
-				<div class="div_contenido_principal_experiencia" id="expertise">
+				<!--comendado<div class="div_contenido_principal_experiencia" id="expertise">-->
 
 				<!--DIv para el Titulo-->
+				<!--comendado
 							<div class="div_tituloExperiencia">
 								<p class="P_titulo_Experiencia">
 
@@ -137,8 +141,10 @@ if( empty($errors))
 								</p>
 							
 							</div>
+							-->
 						
 							<!--Div para el About me-->
+							<!--comendado
 							<div class="h5_titulo_experiencia">
 								<p style="margin-left: 30px">
 									Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.
@@ -146,9 +152,11 @@ if( empty($errors))
 								</p>
 							
 							</div>
+							-->
 						
 						  <!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  -->
-				</div>
+			<!--comendado	</div>-->
+				
 		    <!--DIv para el Experience-->
 				<div class="div_principal_exp" id="experience">
 					<!--DIv para el titulo-->
