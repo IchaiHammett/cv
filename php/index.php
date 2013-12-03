@@ -318,7 +318,7 @@ if( empty($errors))
 								    <input name="name" type="text" value="" size="30"/><br>
 								    Your email:<br>
 								    <input name="email" type="text" value="" size="30"/><br>
-								    <div style="margin-left:500px; margin-top: 3px;">
+								    <div style="margin-left:450px; margin-top: -203px;">
 								    	Your message:<br>
 								    <textarea name="message" rows="7" cols="15"></textarea>
 								    <input type="submit" value="Send email"/>
