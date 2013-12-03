@@ -218,7 +218,7 @@ if( empty($errors))
 						   
 				</div>
 			<!--DIv para el skills-->	
-				<div class="div_skillsPrincipal" id="skills">
+				<div class="div_skillsPrincipal" id="skills" style="background: #fff url("../img/container-bg.png");">
 				<!--DIv para el titulo-->
 							<div class="div_tituloSkills">
 								<p style="margin-left: 30px" >
