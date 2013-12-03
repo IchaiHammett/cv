@@ -183,6 +183,31 @@ if( empty($errors))
 							<!--Div para el contenido-->
 							<div class="div_about_titulo_experiencia">
 								<p class="P_titulo_Experiencia">
+								ASC "Americas Survey Company"</br>Calzada tecnologico #14487 Parque Industrial, Tijuana Baja California<br>
+								<ul class="P_titulo_Experiencia">
+									<li>Interviewer</li>
+									<li>Technical support</li>							
+
+												
+							    </ul><br>
+							    School Control</br>blv. Cucapha S / N, Tijuana Baja California<br>
+							    <ul class="P_titulo_Experiencia">
+									<li>Good communication skills acquired <br> during my experience as head of school control </li>
+									<li>Good capacity for quality control</li>		
+									<li> Process Improvement</li>						
+
+												
+							    </ul><br>
+
+							      Casa de la computadora</br>blv. Cucapha S / N, Tijuana Baja California<br>
+							    <ul class="P_titulo_Experiencia">
+									<li>Hardware Maintenance </li>
+									<li>Support Newtwork</li>		
+									<li> Software maintenance</li>						
+
+												
+							    </ul><br>
+
 									
 									
 								</p>
@@ -211,7 +236,16 @@ if( empty($errors))
 							<!--Div para el contenido-->
 							<div class="div_about_titulo_experiencia">
 								<p class="P_titulo_Experiencia">
-									
+									High school:</br>CECYTE plantel Villas de el Sol S/N</br>
+									Period :</br>2007-2010</br>
+									specialty:</br>Technical Production Processes
+
+									university/College:</br>CESUN UNIVERSIDAD</br>
+									Period:</br>2010-Current</br>
+									specialty:</br>Engineering Software Development
+
+
+							
 									
 								</p>
 							
