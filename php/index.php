@@ -254,7 +254,7 @@ if( empty($errors))
 				</div>
 				
 			<!--DIv para el Portfolio-->	
-				<div class="div_contenido_principal_experiencia" id="portfolio" style="background: #fff url("../img/container-bg.png"); margin-top: 50px;">
+				<div class="div_contenido_principal_experiencia" id="portfolio" style="margin-top: 50px;">
 				<!--DIv para el Titulo-->
 							<div class="div_tituloExperiencia">
 									<p style="margin-left: 30px" >
