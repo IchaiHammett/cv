@@ -105,6 +105,7 @@ if( empty($errors))
 
 								<p class="p_contenido_aboutme">
 								<span class="circle"><img style="float:left" src="img/mypic.jpg" alt=""></span>
+
 									Jesus Ichai Gutierrez Romero</br>
 									Date of Birth:Sep 20th 1992</br>
 									Place of Birth:Distriro Federal, Mexico</br>
@@ -112,7 +113,7 @@ if( empty($errors))
 									Zip Code:22222</br>
 									Cell Phone Number: (044)664-235-34-69</br>
 									Email Address:ichai.hammett@gmail.com</br>
-									Im a very nice person
+									
 									
 									
 								</p>
