@@ -8,8 +8,7 @@
 			<!--<script src="http://code.jquery.com/jquery.js"></script>-->
 			<script src="js/bootstrap.min.js" type="text/jscript"></script>
 			<link rel="Stylesheet" href="css/bootstrap.css" />
-			<link rel="Stylesheet" href="css/bootstrap-responsive.css" />	
-			
+			<link rel="Stylesheet" href="css/bootstrap-responsive.css" />				
 			<LINK HREF="css/estilo.css" REL="stylesheet" TYPE="text/css">
 
 
@@ -308,40 +307,42 @@ if( empty($errors))
 									
 
 									<!--php-->
-									<?php
-$action=$_REQUEST['action'];
-if (!$action=="action")    /* display the contact form */
-    {
-    ?>
-    <form  action="index.php" method="POST" enctype="multipart/form-data">
-    <input type="hidden" name="action" value="submit">
-    Your name:<br>
-    <input name="name" type="text" value="" size="30"/><br>
-    Your email:<br>
-    <input name="email" type="text" value="" size="30"/><br>
-    Your message:<br>
-    <textarea name="message" rows="7" cols="15"></textarea>
-    <input type="submit" value="Send email"/>
-    </form>
-    <?php
-    } 
-else                /* send the submitted data */
-    {
-    $name=$_REQUEST['name'];
-    $email=$_REQUEST['email'];
-    $message=$_REQUEST['message'];
-    if (($name=='name')||($email=='email')||($message=='message'))
-        {
-        echo "All fields are required, please fill <a href=\"\">the form</a> again.";
-        }
-    else{        
-        $from="From: $name<$email>\r\nReturn-path: $email";
-        $subject="Message sent using your contact form";
-        mail("ichai.hammett@gmail.com", $subject, $message, $from);
-        echo "Fill the form please and try again!";
-        }
-    }  
-?>
+																	<?php
+								$action=$_REQUEST['action'];
+								if (!$action=="action")    /* display the contact form */
+								    {
+								    ?>
+								    <form  action="index.php" method="POST" enctype="multipart/form-data">
+								    <input type="hidden" name="action" value="submit">
+								    Your name:<br>
+								    <input name="name" type="text" value="" size="30"/><br>
+								    Your email:<br>
+								    <input name="email" type="text" value="" size="30"/><br>
+								    <div>
+								    	Your message:<br>
+								    <textarea name="message" rows="7" cols="15"></textarea>
+								    <input type="submit" value="Send email"/>
+								    </form>
+								    </div>
+								    <?php
+								    } 
+								else                /* send the submitted data */
+								    {
+								    $name=$_REQUEST['name'];
+								    $email=$_REQUEST['email'];
+								    $message=$_REQUEST['message'];
+								    if (($name=='name')||($email=='email')||($message=='message'))
+								        {
+								        echo "All fields are required, please fill <a href=\"\">the form</a> again.";
+								        }
+								    else{        
+								        $from="From: $name<$email>\r\nReturn-path: $email";
+								        $subject="Message sent using your contact form";
+								        mail("ichai.hammett@gmail.com", $subject, $message, $from);
+								        echo "Fill the form please and try again!";
+								        }
+								    }  
+								?>
 
 									<!--php-->
 								</p>
