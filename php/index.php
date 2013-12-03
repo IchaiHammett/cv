@@ -183,9 +183,9 @@ if( empty($errors))
 							<!--Div para el contenido-->
 							<div class="div_about_titulo_experiencia">
 								<p class="P_titulo_Experiencia">
-								ASC "Americas Survey Company"</br>Calzada tecnologico #14487 Parque Industrial, Tijuana Baja California<br>
+								ASC "Americas Survey Company"</br>Calzada tecnologico #14487 Parque Industrial, Tijuana Baja California<br><br><br>
 								
-							    School Control</br>blv. Cucapha S / N, Tijuana Baja California<br>
+							    School Control</br>blv. Cucapha S / N, Tijuana Baja California<br><br><br>
 							   
 
 							     Casa de la computadora</br>blv. Cucapha S / N, Tijuana Baja California<br>
@@ -218,13 +218,13 @@ if( empty($errors))
 							<!--Div para el contenido-->
 							<div class="div_about_titulo_experiencia">
 								<p class="P_titulo_Experiencia">
-									High school:</br>CECYTE plantel Villas de el Sol S/N</br>
-									Period :</br>2007-2010</br>
-									specialty:</br>Technical Production Processes
+									High school: CECYTE plantel Villas de el Sol S/N</br>
+									Period: 2007-2010</br>
+									specialty: Technical Production Processes</br></br>
 
-									university/College:</br>CESUN UNIVERSIDAD</br>
-									Period:</br>2010-Current</br>
-									specialty:</br>Engineering Software Development
+									university/College: CESUN UNIVERSIDAD</br>
+									Period:2010-Current</br>
+									specialty: Engineering Software Development
 
 
 							
