@@ -255,19 +255,17 @@ if( empty($errors))
 							<!--Div para el contenido-->
 							<div class="div_about_titulo_experiencia">
 								<p class="P_titulo_Experiencia">
-									Languages: C#, Java, CSS, IOS</br>Frameworks: .NET, Play</br>
-
-								
+									Languages: C#, Java, CSS, IOS</br>Frameworks: .NET, Play</br>						
 									
 
-									Support Server Administration</br>
+									Support Server Administration
 									 <ul class="P_titulo_Experiencia">
 									<li>Hardware Maintenance </li>
 									<li>Support Newtwork</li>		
 									<li> Software maintenance</li>
 									<li>Good communication skills acquired <br> during my experience as head of school control </li>
 									<li>Good capacity for quality control</li>		
-									<li> Process Improvement</li>						
+														
 						
 
 												
