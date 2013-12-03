@@ -41,7 +41,7 @@
  }
 
  .divsContenido_divAboutme{
-        border: 1px solid black;
+        
         width:900px; height: 200px;
         position: relative;
         background-color: #F5F2F2;
@@ -49,7 +49,7 @@
  }
 
  .div_aboutme{
-        border: 1px solid black; 
+     
         width:300px; height: 200px; 
         margin-left: 0px; 
         background-color: #F5F2F2;
@@ -78,7 +78,7 @@
 
 
  .div_contenido_aboutme{
-  border: 1px solid black; 
+  
   width: 600px;
   height: 200px; 
   margin-left: 300px; 
@@ -94,7 +94,7 @@
 
  .div_contenido_principal_experiencia
  {
-        border: 1px solid black;
+        
         width:900px; height: 200px;
         position: relative;
         background-color: #F5F2F2;
@@ -103,7 +103,7 @@
 
 
  .div_tituloExperiencia{
-  border: 1px solid black; 
+   
   width:300px; height: 200px; 
   margin-left: 0px; 
   background-color: #F5F2F2;
@@ -130,7 +130,7 @@
  }
 
  .div_about_titulo_experiencia{
-  border: 1px solid black; 
+  
   width: 600px; height: 200px; 
   margin-left: 300px; 
   margin-top: -203px; 
@@ -141,27 +141,27 @@
 
 
  .div_principal_exp{
-        border: 1px solid black;
+        
         width:900px; height: 200px;
         position: relative;
         background-color: #F5F2F2;
  }
 
  .div_skillsPrincipal{
-  border: 1px solid black;
+  
         width:900px; height: 200px;
         position: relative; background-color: #F5F2F2;
  }
 
 
  .div_tituloSkills{
-  border: 1px solid black; width:300px; height: 200px; margin-left: 0px; background-color: #F5F2F2;"
+  width:300px; height: 200px; margin-left: 0px; background-color: #F5F2F2;"
 
  }
 
 
  .div_contactamecont{
-  border: 1px solid black; 
+ 
   width: 800px; height: 200px; 
   margin-left: 300px; 
   margin-top: -203px; 
