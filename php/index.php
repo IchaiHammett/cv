@@ -343,11 +343,11 @@ if( empty($errors))
 								    <input name="name" type="text" value="" size="30"/><br>
 								    Your email:<br>
 								    <input name="email" type="text" value="" size="30"/><br>
-								    <div style="margin-left:350px; margin-top: -115px;">
+								   <!-- <div style="margin-left:350px; margin-top: -115px;">-->
 								    	Your message:<br>
-								    <textarea name="message" rows="7" cols="15"></textarea>
-								    <input type="submit" value="Send email"/>
-								     </div>
+								    <textarea name="message" rows="7" cols="15" style="margin-left:350px; margin-top: -115px;"></textarea>
+								    <input type="submit" value="Send email" style="margin-left:350px; margin-top: -115px;"/>
+								     <!--</div>-->
 								    </form>
 								   
 								    <?php
