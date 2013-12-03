@@ -75,11 +75,11 @@ if( empty($errors))
 		</div> 
 		
 		<!--este div es el contenedor principal-->
-		<div class="div_contenedorPrin">
+		<div class="div_contenedorPrin" style="margin-top: 40px;">
 		
 		    <!--DIv para el name-->
 		    <!--aqui entran las clases de el css divsContenido_divAboutme-->
-				<div class="divsContenido_divAboutme" id="aboutme">
+				<div class="divsContenido_divAboutme" id="aboutme" style="margin-top: 40px;">
 					
 							<!--DIv para el titulo-->
 							<!--clases para cada div de el titulo aboutme-->				
@@ -162,9 +162,9 @@ if( empty($errors))
 
 
 		    <!--DIv para el Experience-->
-				<div class="div_principal_exp" id="experience" style="margin-top: 40px;">
+				<div class="div_principal_exp" id="experience" style="margin-top: 50px;">
 					<!--DIv para el titulo-->
-							<div class="div_tituloExperiencia" style="margin-top: 40px;"> <!--aqui se anexa css ya hecho-->
+							<div class="div_tituloExperiencia"> <!--aqui se anexa css ya hecho-->
 								<p class="P_titulo_Experiencia">
 
 									<p class="P_titulo_Experiencia">
@@ -190,7 +190,7 @@ if( empty($errors))
 						   
 				</div>
 			<!--DIv para el Education-->	
-				<div class="div_tituloExperiencia" id="education" style="margin-top: 40px;">
+				<div class="div_tituloExperiencia" id="education" style="margin-top: 50px;">
 				<!--DIv para el titulo-->
 							<div class="div_tituloExperiencia">
 								<p class="P_titulo_Experiencia" >
@@ -218,7 +218,7 @@ if( empty($errors))
 						   
 				</div>
 			<!--DIv para el skills-->	
-				<div class="div_skillsPrincipal" id="skills" style="background: #fff url("../img/container-bg.png");margin-top: 40px;">
+				<div class="div_skillsPrincipal" id="skills" style="background: #fff url("../img/container-bg.png"); margin-top: 50px;">
 				<!--DIv para el titulo-->
 							<div class="div_tituloSkills" style="background-image: #fff url("../img/container-bg.png");">
 								<p style="margin-left: 30px" >
@@ -254,7 +254,7 @@ if( empty($errors))
 				</div>
 				
 			<!--DIv para el Portfolio-->	
-				<div class="div_contenido_principal_experiencia" id="portfolio" style="background: #fff url("../img/container-bg.png"); margin-top: 40px;">
+				<div class="div_contenido_principal_experiencia" id="portfolio" style="background: #fff url("../img/container-bg.png"); margin-top: 50px;">
 				<!--DIv para el Titulo-->
 							<div class="div_tituloExperiencia">
 									<p style="margin-left: 30px" >
@@ -283,7 +283,7 @@ if( empty($errors))
 				</div>
 				
 			<!--DIv para el Education-->	
-				<div class="div_principal_exp" id="contact">
+				<div class="div_principal_exp" id="contact" style="margin-top: 50px;">
 
 				<!--DIv para el Titulo-->
 							<div class="div_tituloSkills" style="background-image: #fff url("../img/container-bg.png"); margin-top: 40px;">
