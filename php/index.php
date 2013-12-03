@@ -184,30 +184,12 @@ if( empty($errors))
 							<div class="div_about_titulo_experiencia">
 								<p class="P_titulo_Experiencia">
 								ASC "Americas Survey Company"</br>Calzada tecnologico #14487 Parque Industrial, Tijuana Baja California<br>
-								<ul class="P_titulo_Experiencia">
-									<li>Interviewer</li>
-									<li>Technical support</li>							
-
-												
-							    </ul><br>
+								
 							    School Control</br>blv. Cucapha S / N, Tijuana Baja California<br>
-							    <ul class="P_titulo_Experiencia">
-									<li>Good communication skills acquired <br> during my experience as head of school control </li>
-									<li>Good capacity for quality control</li>		
-									<li> Process Improvement</li>						
+							   
 
-												
-							    </ul><br>
-
-							      Casa de la computadora</br>blv. Cucapha S / N, Tijuana Baja California<br>
-							    <ul class="P_titulo_Experiencia">
-									<li>Hardware Maintenance </li>
-									<li>Support Newtwork</li>		
-									<li> Software maintenance</li>						
-
-												
-							    </ul><br>
-
+							     Casa de la computadora</br>blv. Cucapha S / N, Tijuana Baja California<br>
+							   
 									
 									
 								</p>
@@ -276,10 +258,21 @@ if( empty($errors))
 									Languages: C#, Java, CSS, IOS</br>Frameworks: .NET, Play</br>
 
 								
-									Hardware Maintenance (Preventive Care )</br>
-									Software maintenance (installation, updating, Removing, Blocking, etc)</br>
-									Support Newtwork Administration</br>
+									
+
 									Support Server Administration</br>
+									 <ul class="P_titulo_Experiencia">
+									<li>Hardware Maintenance </li>
+									<li>Support Newtwork</li>		
+									<li> Software maintenance</li>
+									<li>Good communication skills acquired <br> during my experience as head of school control </li>
+									<li>Good capacity for quality control</li>		
+									<li> Process Improvement</li>						
+						
+
+												
+							    </ul><br>
+
 									
 																		
 								</p>
