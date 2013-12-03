@@ -104,7 +104,7 @@ if( empty($errors))
 							<div class="div_contenido_aboutme">
 
 								<p class="p_contenido_aboutme">
-								<span class="circle"><img style="float:left" src="img/mypic.jpg" alt=""></span>
+								<span class="img-circle"><img style="float:left" src="img/mypic.jpg" alt=""></span>
 
 									Jesus Ichai Gutierrez Romero</br>
 									Date of Birth:Sep 20th 1992</br>
