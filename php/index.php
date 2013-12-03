@@ -102,8 +102,9 @@ if( empty($errors))
 						
 							<!--Div para el contenido-->
 							<div class="div_contenido_aboutme">
-							<span class="circle"><img style="float:left" src="img/mypic.jpg" alt=""></span>
+
 								<p class="p_contenido_aboutme">
+								<span class="circle"><img style="float:left" src="img/mypic.jpg" alt=""></span>
 									Jesus Ichai Gutierrez Romero</br>
 									Date of Birth:Sep 20th 1992</br>
 									Place of Birth:Distriro Federal, Mexico</br>
