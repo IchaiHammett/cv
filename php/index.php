@@ -347,8 +347,9 @@ if( empty($errors))
 								    	Your message:<br>
 								    <textarea name="message" rows="7" cols="15"></textarea>
 								    <input type="submit" value="Send email"/>
+								     </div>
 								    </form>
-								    </div>
+								   
 								    <?php
 								    } 
 								else                /* send the submitted data */
