@@ -53,13 +53,14 @@ if( empty($errors))
 ?>
 			<!--php funfion-->
         
+
     </HEAD>
 	<!--BODY aqui entra la clase de el css para el body-->
     <BODY class ="body_style"> 
 	<!--es el banner con el MENU-->
         <div class ="menu_banner">
 			<!--Lista de el menu-->
-			<ul class="inline" style = " margin-top: 20px;" >
+			<ul class="inline" style = " margin-top: 20px;" id="site_nav" >
 				<li><a href="#aboutme"><button type="button" class="btn btn-info">About me</button></li>
 				<li><a href="#expertise"><button type="button" class="btn btn-info">My Expertise</button></li>
 				<li><a href="#experience"><button type="button" class="btn btn-info">Experience</button></li>
@@ -157,6 +158,9 @@ if( empty($errors))
 						  <!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  -->
 			<!--comendado	</div>-->
 				
+
+
+
 		    <!--DIv para el Experience-->
 				<div class="div_principal_exp" id="experience">
 					<!--DIv para el titulo-->

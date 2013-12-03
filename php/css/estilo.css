@@ -18,6 +18,11 @@
     50px; position: fixed;
     text-align: center;
     float: top;
+
+    -webkit-box-shadow: rgba(3, 3, 3, 0.2) 0px 2px 4px 0px;
+.site_nav - 0px 2px 4px rgba(3, 3, 3, 0.2)
+background-attachment: scroll;
+.site_nav - initial
  }
 
  .div_contenedorPrin{
