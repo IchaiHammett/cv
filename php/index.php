@@ -60,16 +60,17 @@ if( empty($errors))
         <div class ="menu_banner">
 			<!--Lista de el menu-->
 			<ul class="inline" style = " margin-top: 20px;" id="site_nav" >
-				<li><a href="#aboutme"><button type="button" class="btn btn-info">About me</button></li>
-				<li><a href="#expertise"><button type="button" class="btn btn-info">My Expertise</button></li>
+			<!--
+				<li><a href="#aboutme">   <button type="button" class="btn btn-info">About me</button></li>
+				<li><a href="#expertise"> <button type="button" class="btn btn-info">My Expertise</button></li>
 				<li><a href="#experience"><button type="button" class="btn btn-info">Experience</button></li>
-				<li><a href="#education"><button type="button" class="btn btn-info">Education</button></li>
-				<li><a href="#skills"><button type="button" class="btn btn-info">Skills</button></li>
-				<li><a href="#portfolio"><button type="button" class="btn btn-info">Portfolio</button></li>
-				<li><a href="#contact"><button type="button" class="btn btn-info ">Contact</button></li>
+				<li><a href="#education"> <button type="button" class="btn btn-info">Education</button></li>
+				<li><a href="#skills">    <button type="button" class="btn btn-info">Skills</button></li>
+				<li><a href="#portfolio"> <button type="button" class="btn btn-info">Portfolio</button></li>
+				<li><a href="#contact">   <button type="button" class="btn btn-info ">Contact</button></li>
 
 							
-		    </ul>
+		    </ul> -->
 		
 		</div> 
 		
