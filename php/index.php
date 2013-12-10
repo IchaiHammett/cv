@@ -272,9 +272,7 @@ if( empty($errors))
 				
 					<div class="galleryContainer">	    
 
-						
-			
-					<img src="img/codigo.png">
+					
 						
 						
 					</div>
