@@ -1,8 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<HTML lang="en" xmlns="http://www.w3.org/1999/xhtml">
-    <HEAD>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE HTML>
+<html>
+    <head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
         <TITLE>Ichai Gutierrez Romero CV</TITLE>
 		
 			<!--<script src="http://code.jquery.com/jquery.js"></script>-->
@@ -53,9 +53,9 @@ if( empty($errors))
 			<!--php funfion-->
         
 
-    </HEAD>
+    </head>
 	<!--BODY aqui entra la clase de el css para el body-->
-    <BODY class ="body_style"> 
+    <body class ="body_style"> 
 	<!--es el banner con el MENU-->
         <div class ="menu_banner">
 			<!--Lista de el menu-->
@@ -403,5 +403,5 @@ if( empty($errors))
 		
 		
 
-    </BODY>
-</HTML>
+    </body>
+</html>

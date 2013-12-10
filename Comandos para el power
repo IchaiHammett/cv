@@ -1,0 +1,8 @@
+Comandos para el power
+
+git push origin master //se hace el push a OpenShift
+git push github master // se hace el push a el repositorio de github.com
+git status // para ver el estatus de el proyecto y sus cambios locoales
+git add * // para hacer visibles los archivos nuevos que se agreguen al proyecto
+
+git commit -am " comentario sobre los cambios o el por que de los cambios" // actualizar el mastar
