@@ -9,7 +9,7 @@
 			<script src="js/bootstrap.min.js" type="text/jscript"></script>
 			<link rel="Stylesheet" href="css/bootstrap.css" />
 			<link rel="Stylesheet" href="css/bootstrap-responsive.css" />				
-			<LINK HREF="css/estilo.css" REL="stylesheet" TYPE="text/css">
+			<link href="css/estilo.css" rel="stylesheet" type="text/css">
 
 
 
@@ -77,6 +77,8 @@ if( empty($errors))
 		    <li><a href="#skills"><button type="button" class="btn btn-info">Skills</button></a></li>
 		    <li><a href="#portfolio"><button type="button" class="btn btn-info">Portfolio</button></a></li>
 		    <li><a href="#contact"><button type="button" class="btn btn-info">Contact</button></a></li>
+		    <li><!-- inicio codigo contador --><a href="http://www.trucoshtmlweb.blogspot.com.es/"><img style="border: 0px solid ; display: inline;" alt="contador de visitas"
+            src="http://contador-de-visitas.com/hit.php?id=1430205&counter=25"></a><br /><a href="http://www.trucoshtmlweb.blogspot.com.es/">contador visitas</a><!-- fin codigo contador --></li>
 		    
 		    </ul>
 		
@@ -279,17 +281,7 @@ if( empty($errors))
 					<div class="span9 borderleft">
 				
 					<div class="galleryContainer">	    	
-						<div class="galleryItem">
-							<a href="img/1.jpg" class="lightbox['portfolio']"><img src="img/codigo.jpg" alt=""></a>
-							<h3>Business Card</h3>
-							<p>Graphic Design</p>
-						</div>
-						
-						<div class="galleryItem">
-							<a href="img/2.jpg" class="lightbox['portfolio']"><img src="img/codigo2jpg" alt=""></a>
-							<h3>Business Card Back</h3>
-							<p>Graphic Design</p>
-						</div>
+					
 						
 						
 					</div>
