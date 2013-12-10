@@ -76,7 +76,8 @@ if( empty($errors))
 		    <li><a href="#education"><button type="button" class="btn btn-info">Education</button></a></li>
 		    <li><a href="#skills"><button type="button" class="btn btn-info">Skills</button></a></li>
 		    <li><a href="#portfolio"><button type="button" class="btn btn-info">Portfolio</button></a></li>
-		    <li><a href="#contact"><button type="button" class="btn btn-info">Contact/button></a></li>
+		    <li><a href="#contact"><button type="button" class="btn btn-info">Contact</button></a></li>
+		    
 		    </ul>
 		
 		</div> 
