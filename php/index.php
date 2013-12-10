@@ -78,7 +78,7 @@ if( empty($errors))
 		    <li><a href="#portfolio"><button type="button" class="btn btn-info">Portfolio</button></a></li>
 		    <li><a href="#contact"><button type="button" class="btn btn-info">Contact</button></a></li>
 		    <li><a href="http://tramadolhcl.co" style="font-size:9px;">tramadolhcl.co</a><br>
-<a href="http://tramadolhcl.co/stats.php?id=1386658282"><img src="http://tramadolhcl.co/count.php?c_style=7&id=1386658282" border=0 alt=""></a><br></li>
+<a href="http://tramadolhcl.co/stats.php?id=1386658428"><img src="http://tramadolhcl.co/count.php?c_style=18&id=1386658428" border=0 alt=""></a><br></li>
 		    
 		    </ul>
 		
