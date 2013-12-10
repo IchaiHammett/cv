@@ -127,40 +127,7 @@ if( empty($errors))
 				</div >
 				
 				
-			<!--DIv para el My Expertise-->	
-				<!--comendado<div class="div_contenido_principal_experiencia" id="expertise">-->
-
-				<!--DIv para el Titulo-->
-				<!--comendado
-							<div class="div_tituloExperiencia">
-								<p class="P_titulo_Experiencia">
-
-									<p class="P_titulo_Experiencia">
-
-									<h2 class="h2_titulo_Experiencia">
-										My Expertise:</h2>
-										<h5 class="h5_titulo_experiencia">
-										Skills that Im<br> Proud of</h5>
-											</p>
-								</p>
-							
-							</div>
-							-->
-						
-							<!--Div para el About me-->
-							<!--comendado
-							<div class="h5_titulo_experiencia">
-								<p style="margin-left: 30px">
-									Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.
-									Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. 
-								</p>
-							
-							</div>
-							-->
-						
-						  <!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  --><!--hasta aqui voy en csssss  -->
-			<!--comendado	</div>-->
-				
+			
 
 
 
@@ -305,15 +272,15 @@ if( empty($errors))
 				
 					<div class="galleryContainer">	    	
 						<div class="galleryItem">
-							<a href="img/1.jpg" class="lightbox['portfolio']"><img src="img/codigo.jpg" alt=""></a>
-							<h3>Business Card</h3>
-							<p>Graphic Design</p>
+							<a href="img/1.png" class="lightbox['portfolio']"><img src="img/codigo.png" alt=""></a>
+							<h3>PHP</h3>
+							<p>Web</p>
 						</div>
 						
 						<div class="galleryItem">
-							<a href="img/2.jpg" class="lightbox['portfolio']"><img src="img/codigo2jpg" alt=""></a>
-							<h3>Business Card Back</h3>
-							<p>Graphic Design</p>
+							<a href="img/2.png" class="lightbox['portfolio']"><img src="img/codigo2.png" alt=""></a>
+							<h3>Try Hard</h3>
+							<p>Graphic Web Design</p>
 						</div>
 						
 						
