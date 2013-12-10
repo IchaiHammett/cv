@@ -68,9 +68,16 @@ if( empty($errors))
 				<li><a href="#skills">    <button type="button" class="btn btn-info">Skills</button></li>
 				<li><a href="#portfolio"> <button type="button" class="btn btn-info">Portfolio</button></li>
 				<li><a href="#contact">   <button type="button" class="btn btn-info ">Contact</button></li>
-
 							
-		    </ul> -->
+		     -->
+		    <li><a href="#aboutme"><button type="button" class="btn btn-info">About me</button></a></li>
+		    <li><a href="#expertise"><button type="button" class="btn btn-info">My expertise</button></a></li>
+		    <li><a href="#experience"><button type="button" class="btn btn-info">Experience</button></a></li>
+		    <li><a href="#education"><button type="button" class="btn btn-info">Education</button></a></li>
+		    <li><a href="#skills"><button type="button" class="btn btn-info">Skills</button></a></li>
+		    <li><a href="#portfolio"><button type="button" class="btn btn-info">Portfolio</button></a></li>
+		    <li><a href="#contact"><button type="button" class="btn btn-info">Contact/button></a></li>
+		    </ul>
 		
 		</div> 
 		
@@ -272,15 +279,15 @@ if( empty($errors))
 				
 					<div class="galleryContainer">	    	
 						<div class="galleryItem">
-							<a href="img/1.png" class="lightbox['portfolio']"><img src="img/codigo.png" alt=""></a>
-							<h3>PHP</h3>
-							<p>Web</p>
+							<a href="img/1.jpg" class="lightbox['portfolio']"><img src="img/codigo.jpg" alt=""></a>
+							<h3>Business Card</h3>
+							<p>Graphic Design</p>
 						</div>
 						
 						<div class="galleryItem">
-							<a href="img/2.png" class="lightbox['portfolio']"><img src="img/codigo2.png" alt=""></a>
-							<h3>Try Hard</h3>
-							<p>Graphic Web Design</p>
+							<a href="img/2.jpg" class="lightbox['portfolio']"><img src="img/codigo2jpg" alt=""></a>
+							<h3>Business Card Back</h3>
+							<p>Graphic Design</p>
 						</div>
 						
 						
