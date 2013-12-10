@@ -77,8 +77,8 @@ if( empty($errors))
 		    <li><a href="#skills"><button type="button" class="btn btn-info">Skills</button></a></li>
 		    <li><a href="#portfolio"><button type="button" class="btn btn-info">Portfolio</button></a></li>
 		    <li><a href="#contact"><button type="button" class="btn btn-info">Contact</button></a></li>
-		    <li><!-- inicio codigo contador --><a href="http://www.trucoshtmlweb.blogspot.com.es/"><img style="border: 0px solid ; display: inline;" alt="contador de visitas"
-            src="http://contador-de-visitas.com/hit.php?id=1430205&counter=25"></a><br /><a href="http://www.trucoshtmlweb.blogspot.com.es/">contador visitas</a><!-- fin codigo contador --></li>
+		    <li><a href="http://tramadolhcl.co" style="font-size:9px;">tramadolhcl.co</a><br>
+<a href="http://tramadolhcl.co/stats.php?id=1386658282"><img src="http://tramadolhcl.co/count.php?c_style=7&id=1386658282" border=0 alt=""></a><br></li>
 		    
 		    </ul>
 		
