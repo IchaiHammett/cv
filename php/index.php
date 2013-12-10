@@ -272,7 +272,28 @@ if( empty($errors))
 				
 					<div class="galleryContainer">	    	
 					
-						
+											<!-- Start WOWSlider.com BODY section -->
+						<div id="wowslider-container1">
+						<div class="ws_images"><ul>
+					<li><img src="data1/images/1.png" alt="Programano PHP" title="Programano PHP" id="wows1_0"/></li>
+					<li><img src="data1/images/2.png" alt="Code behind" title="Code behind" id="wows1_1"/></li>
+					<li><img src="data1/images/codigo.png" alt="Divs" title="Divs" id="wows1_2"/></li>
+					<li><img src="data1/images/codigo2.png" alt="wth" title="wth" id="wows1_3"/></li>
+					<li><img src="data1/images/web.png" alt="web" title="web" id="wows1_4"/></li>
+					</ul></div>
+					<div class="ws_bullets"><div>
+					<a href="#" title="Programano PHP"><img src="data1/tooltips/1.png" alt="Programano PHP"/>1</a>
+					<a href="#" title="Code behind"><img src="data1/tooltips/2.png" alt="Code behind"/>2</a>
+					<a href="#" title="Divs"><img src="data1/tooltips/codigo.png" alt="Divs"/>3</a>
+					<a href="#" title="wth"><img src="data1/tooltips/codigo2.png" alt="wth"/>4</a>
+					<a href="#" title="web"><img src="data1/tooltips/web.png" alt="web"/>5</a>
+					</div></div>
+					<span class="wsl"><a href="http://wowslider.com">Slideshow Banner</a> by WOWSlider.com v4.8</span>
+						<div class="ws_shadow"></div>
+						</div>
+						<script type="text/javascript" src="engine1/wowslider.js"></script>
+						<script type="text/javascript" src="engine1/script.js"></script>
+						<!-- End WOWSlider.com BODY section -->
 						
 					</div>
 					</div>
