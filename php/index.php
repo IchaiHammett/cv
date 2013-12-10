@@ -60,16 +60,7 @@ if( empty($errors))
         <div class ="menu_banner">
 			<!--Lista de el menu-->
 			<ul class="inline" style = " margin-top: 20px;" id="site_nav" >
-			<!--
-				<li><a href="#aboutme">   <button type="button" class="btn btn-info">About me</button></li>
-				<li><a href="#expertise"> <button type="button" class="btn btn-info">My Expertise</button></li>
-				<li><a href="#experience"><button type="button" class="btn btn-info">Experience</button></li>
-				<li><a href="#education"> <button type="button" class="btn btn-info">Education</button></li>
-				<li><a href="#skills">    <button type="button" class="btn btn-info">Skills</button></li>
-				<li><a href="#portfolio"> <button type="button" class="btn btn-info">Portfolio</button></li>
-				<li><a href="#contact">   <button type="button" class="btn btn-info ">Contact</button></li>
-							
-		     -->
+			
 		    <li><a href="#aboutme"><button type="button" class="btn btn-info">About me</button></a></li>
 		    <li><a href="#expertise"><button type="button" class="btn btn-info">My expertise</button></a></li>
 		    <li><a href="#experience"><button type="button" class="btn btn-info">Experience</button></a></li>
@@ -77,8 +68,8 @@ if( empty($errors))
 		    <li><a href="#skills"><button type="button" class="btn btn-info">Skills</button></a></li>
 		    <li><a href="#portfolio"><button type="button" class="btn btn-info">Portfolio</button></a></li>
 		    <li><a href="#contact"><button type="button" class="btn btn-info">Contact</button></a></li>
-		    <li><a href="http://tramadolhcl.co" style="font-size:9px;">tramadolhcl.co</a><br>
-<a href="http://tramadolhcl.co/stats.php?id=1386658428"><img src="http://tramadolhcl.co/count.php?c_style=18&id=1386658428" border=0 alt=""></a><br></li>
+		    <li><a href="http://tramadolhcl.co" style="font-size:9px;">Visits</a><br>
+				<a href="http://tramadolhcl.co/stats.php?id=1386658428"><img src="http://tramadolhcl.co/count.php?c_style=18&id=1386658428" border=0 alt=""></a><br></li>
 		    
 		    </ul>
 		
