@@ -68,9 +68,9 @@ if( empty($errors))
 		    <li><a href="#skills"><button type="button" class="btn btn-info">Skills</button></a></li>
 		    <li><a href="#portfolio"><button type="button" class="btn btn-info">Portfolio</button></a></li>
 		    <li><a href="#contact"><button type="button" class="btn btn-info">Contact</button></a></li>
-		    <!--<li>Visits<br><a href="http://tramadolhcl.co/stats.php?id=1386658428"><img src="http://tramadolhcl.co/count.php?c_style=18&id=1386658428" border=0 alt=""></a><br></li>
+		    <li><a href="http://tramadolhcl.co/stats.php?id=1386658428"><img src="http://tramadolhcl.co/count.php?c_style=18&id=1386658428" ></a></li>
 		    
-		    </ul>-->
+		    </ul>
 		
 		</div> 
 		
